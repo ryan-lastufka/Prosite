@@ -1,0 +1,42 @@
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #0dd;
+}
+
+.footer {
+    background: var(--primary-dark);
+    color: var(--text-light);
+    padding: 3rem 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-icon-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.contact-icon {
+    vertical-align: middle;
+}
+
+.contact-info {
+    margin-bottom: 1.5rem;
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: #eaeaea;
+    }
+
+    p {
+        margin-bottom: 0.5rem;
+    }
+}
