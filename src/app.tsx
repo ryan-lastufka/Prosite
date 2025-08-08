@@ -7,7 +7,7 @@ import { EducationCard } from './components/EducationCard';
 import { NavigationStrip } from './components/NavigationStrip';
 import { FaEnvelope, FaPhone, FaLinkedin } from 'react-icons/fa';
 
-const SITE_BASE = 'Prosite';
+const SITE_BASE = '/';
 const SECTIONS_IDS = ['landing', 'skills', 'experience', 'education'];
 const SECTION_CLASS_NAME = 'section';
 
@@ -47,7 +47,7 @@ const App: FunctionComponent = () => {
             >
                 {}
                 <div className="profile-container">
-                    <img src={"/" + SITE_BASE + "/assets/portraits/portrait-2-final.png"} alt="Ryan Lastufka" className="profile-image" />
+                    <img src={SITE_BASE + "assets/portraits/portrait-2-final.png"} alt="Ryan Lastufka" className="profile-image" />
                     <h1>Ryan Lastufka</h1>
                     <p>Versatile software engineer with expertise across the full technology stack. From low-level systems programming to modern web development and graphic design, I bring a deep technical understanding and adaptable approach to every project.</p>
                     <p className="subtitle">Experience. Adapt. Refine.</p>
@@ -70,7 +70,7 @@ const App: FunctionComponent = () => {
                             'Node.js', 'Express', 'PostgreSQL',
                             'Docker', 'Vite', 'Webpack', 'TailwindCSS'
                         ]}
-                        imageUrl={"/" + SITE_BASE + "/assets/stock/pexels-markusspiske-360591.jpg"}
+                        imageUrl={SITE_BASE + "assets/stock/pexels-markusspiske-360591.jpg"}
                         imageAlt="Web Development"
                     />
                     <SkillCard
@@ -82,7 +82,7 @@ const App: FunctionComponent = () => {
                             'Git', 'Microservices',
                             'C#', 'Java', 'Kotlin'
                         ]}
-                        imageUrl={"/" + SITE_BASE + "/assets/stock/pexels-mikhail-nilov-7988241.jpg"}
+                        imageUrl={SITE_BASE + "assets/stock/pexels-mikhail-nilov-7988241.jpg"}
                         imageAlt="Software Architecture"
                     />
                     <SkillCard
@@ -93,7 +93,7 @@ const App: FunctionComponent = () => {
                             'Active Directory', 'VMware',
                             'Networking', 'Security', 'Hardware', 'Virtualization'
                         ]}
-                        imageUrl={"/" + SITE_BASE + "/assets/stock/pexels-joshsorenson-1054397.jpg"}
+                        imageUrl={SITE_BASE + "assets/stock/pexels-joshsorenson-1054397.jpg"}
                         imageAlt="IT & Systems"
                     />
                     <SkillCard
@@ -105,7 +105,7 @@ const App: FunctionComponent = () => {
                             'RTOS', 'Linux',
                             'USB', 'Serial', 'I2C', 'SPI'
                         ]}
-                        imageUrl={"/" + SITE_BASE + "/assets/stock/pexels-tima-miroshnichenko-6755058.jpg"}
+                        imageUrl={SITE_BASE + "assets/stock/pexels-tima-miroshnichenko-6755058.jpg"}
                         imageAlt="Systems Programming"
                     />
                     <SkillCard
@@ -116,7 +116,7 @@ const App: FunctionComponent = () => {
                             'Unity',
                             'WebGL', 'Three.js', 'SVG', 'Canvas'
                         ]}
-                        imageUrl={"/" + SITE_BASE + "/assets/stock/pexels-adrien-olichon-1257089-3137076.jpg"}
+                        imageUrl={SITE_BASE + "assets/stock/pexels-adrien-olichon-1257089-3137076.jpg"}
                         imageAlt="Creative Technology"
                     />
                 </div>
@@ -133,27 +133,27 @@ const App: FunctionComponent = () => {
                         title="Software Architect"
                         company="PhotoFusion Technologies"
                         description="Led full-stack development initiatives across multiple domains, developing robotics control systems and microcontroller firmware using C++ and Python. Designed and implemented user interfaces with Vue.js and TypeScript, while architecting cloud-based infrastructure solutions. Successfully integrated multimodal technologies to create cohesive systems, demonstrating expertise in both hardware and software development."
-                        logoImageUrl={"/" + SITE_BASE + "/assets/logo/photofusion+left+aligned.png"}
+                        logoImageUrl={SITE_BASE + "assets/logo/photofusion+left+aligned.png"}
                         logoImageAlt="PhotoFusion Technologies Inc. Logo"
-                        previewImageUrl={"/" + SITE_BASE + "/assets/stock/pexels-optlasers-7254428.jpg"}
+                        previewImageUrl={SITE_BASE + "assets/stock/pexels-optlasers-7254428.jpg"}
                         previewImageAlt="Laser systems control software was part of my many responsibilities."
                     />
                     <ExperienceCard
                         title="PHP Developer"
                         company="ProPath Pathology Services"
                         description="Specialized in internal tools development and database integration, building comprehensive web-based solutions using PHP and SQL. Managed and optimized database systems while implementing robust cybersecurity measures. Created efficient, secure applications that streamlined internal processes and improved data management workflows."
-                        logoImageUrl={"/" + SITE_BASE + "/assets/logo/propath-logo.png"}
+                        logoImageUrl={SITE_BASE + "assets/logo/propath-logo.png"}
                         logoImageAlt="ProPath Pathology Services Logo"
-                        previewImageUrl={"/" + SITE_BASE + "/assets/stock/pexels-sejio402-6466141.jpg"}
+                        previewImageUrl={SITE_BASE + "assets/stock/pexels-sejio402-6466141.jpg"}
                         previewImageAlt="I was involved in writing database tooling and IT tasks."
                     />
                     <ExperienceCard
                         title="IT Support Specialist"
                         company="Texas A&M University Department of IT"
                         description="Provided comprehensive IT support services, performing hardware diagnostics, repairs, and system maintenance. Managed computer systems and hardware inventory while delivering technical support to faculty and students. Developed expertise in system administration and hardware troubleshooting through hands-on experience in a large academic environment."
-                        logoImageUrl={"/" + SITE_BASE + "/assets/logo/TAM-Stack-white-bg.png"}
+                        logoImageUrl={SITE_BASE + "assets/logo/TAM-Stack-white-bg.png"}
                         logoImageAlt="Texas A&M University Logo"
-                        previewImageUrl={"/" + SITE_BASE + "/assets/stock/pexels-cookiecutter-17489151.jpg"}
+                        previewImageUrl={SITE_BASE + "assets/stock/pexels-cookiecutter-17489151.jpg"}
                         previewImageAlt="In the Computer Repair Service I completed hardware tasks and managed inventory."
                     />
                 </div>
@@ -172,7 +172,7 @@ const App: FunctionComponent = () => {
                         degree="Computer Science"
                         period="2018 - 2019"
                         description="Advanced coursework in software development and computer systems. Telecommunications and networking."
-                        logoImageUrl={"/" + SITE_BASE + "/assets/logo/dbu-compact.png"}
+                        logoImageUrl={SITE_BASE + "assets/logo/dbu-compact.png"}
                         logoImageAlt="Dallas Baptist University Logo"
                     />
                     <EducationCard
@@ -180,7 +180,7 @@ const App: FunctionComponent = () => {
                         degree="Bachelor of Science in Computer Science"
                         period="2016 - 2018"
                         description="Focused on systems programming, software engineering, and computer architecture. Computer graphics, algorithms, related upper-level mathematics."
-                        logoImageUrl={"/" + SITE_BASE + "/assets/logo/TAM-Stack-white-bg.png"}
+                        logoImageUrl={SITE_BASE + "assets/logo/TAM-Stack-white-bg.png"}
                         logoImageAlt="Texas A&M University Logo"
                     />
                 </div>
