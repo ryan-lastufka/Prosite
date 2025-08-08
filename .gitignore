@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Dev Tools
-src/assets/dev/*
+dev/*
