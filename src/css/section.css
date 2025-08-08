@@ -180,14 +180,22 @@
     }
 
     .section-content {
+        padding-right: 0;
         padding-left: calc(var(--nav-strip-width) + var(--content-margin));
+    }
+    #landing>.section-content {
+        padding-top: 0;
+    }
+    #landing>.section-content>.profile-container>.subtitle {
+        margin-top: 2rem;
     }
 
     .skills-grid,
     .experience-list,
     .education-list {
-        padding: 0 0.5rem;
-        margin: 2rem 0.5rem;
+        max-width: none !important;
+        padding: 0 0.5rem !important;
+        margin: 2rem 0rem !important;
     }
 
     .skill-card,
