@@ -1,7 +1,6 @@
 
 .landing {
-    background: linear-gradient(rgba(0, 77, 84, 0.8), rgba(0, 77, 84, 0.9)),
-        url('/placeholder-background.jpg');
+    background: linear-gradient(rgba(0, 77, 84, 0.8), rgba(0, 77, 84, 0.9));
     background-size: cover;
     background-position: center;
     color: var(--text-light);
