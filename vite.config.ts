@@ -7,6 +7,7 @@ export default defineConfig(({ command, mode }) => {
 
   return {
     plugins: [preact()],
-    base: isProduction ? '/Prosite/' : '/',
+    // base: isProduction ? '/Prosite/' : '/',
+    base: '/Prosite/',
   };
 });
