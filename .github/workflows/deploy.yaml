@@ -24,14 +24,14 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20 
+          node-version: 20
           cache: 'npm'
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build
-        run: npm run build
+      - name: Build for Production
+        run: npx vite build --mode production
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
