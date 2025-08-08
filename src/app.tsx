@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'preact';
-import '/src/css/app.css';
+import './css/app.css';
 import { Section } from './components/Section';
 import { SkillCard } from './components/SkillCard';
 import { ExperienceCard } from './components/ExperienceCard';
@@ -190,16 +190,16 @@ const App: FunctionComponent = () => {
                 <div className="contact-info">
                     <h2>Contact</h2>
                     <a href="mailto:ryan.lastufka@gmail.com" className="footer-link contact-icon-link">
-                        <FaEnvelope className="contact-icon" />
+                        <FaEnvelope />
                         ryan.lastufka@gmail.com
           </a>
                     <p>
-                        <FaPhone className="contact-icon" />
+                        <FaPhone />
                         (682) 265-0990
           </p>
                     <p>
                         <a href="https://www.linkedin.com/in/ryan-lastufka-21016628b/" className="footer-link contact-icon-link">
-                            <FaLinkedin className="contact-icon" />
+                            <FaLinkedin />
                             linkedin.com/in/ryan-lastufka-21016628b
             </a>
                     </p>
